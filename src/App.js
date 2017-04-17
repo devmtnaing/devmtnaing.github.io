@@ -6,6 +6,7 @@ import FaLinkedin from 'react-icons/lib/fa/linkedin';
 import FaEnvelope from 'react-icons/lib/fa/envelope';
 
 import './App.css';
+import myProfile from './assets/images/myProfile.jpg';
 
 class App extends Component {
   render() {
@@ -13,7 +14,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <section className="profile">
-            <img src="https://scontent-sit4-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12230818_725327144234285_1191128953_n.jpg" alt="my-profile" />
+            <img src={myProfile} alt="my-profile" />
             <nav className="social-section">
               <a href="https://www.facebook.com/minthetnaing" title="facebook" target="_blank">
                 <FaFacebook className="social-icons facebook" />
